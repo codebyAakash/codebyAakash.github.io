@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aakash — Software Engineer</title>
+  <meta name="description" content="Aakash, Software Engineer with 3+ years in full stack development. I turn ideas into fast, polished products." />
+  <meta property="og:title" content="Aakash — Software Engineer" />
+  <meta property="og:description" content="3+ years in full stack development. Let's build something great." />
+  <meta name="theme-color" content="#faf8f5" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='28' fill='%23111'/><text x='50' y='68' font-size='58' font-family='sans-serif' font-weight='800' text-anchor='middle' fill='%23ff6b2c'>A</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+  <div class="blob b1" aria-hidden="true"></div>
+  <div class="blob b2" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="logo" href="#top" aria-label="Aakash home">A<span>.</span></a>
+    <button id="theme" class="theme" aria-label="Toggle dark mode">◐</button>
+  </header>
+
+  <main id="top" class="hero">
+    <section class="copy">
+      <p class="pill reveal"><i></i> Open to opportunities</p>
+      <h1 class="reveal">Hi, I'm <span class="grad">Aakash</span>.</h1>
+      <h2 class="role reveal">Software Engineer <em>· Full Stack</em></h2>
+      <p class="tag reveal">I turn ideas into fast, polished products — from pixel-perfect interfaces to rock-solid backends.</p>
+
+      <div class="cta reveal">
+        <a class="btn primary" href="mailto:aakash.elven@gmail.com">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m3 7 9 6 9-6"/></svg>
+          Email me
+        </a>
+        <a class="btn ghost" href="https://in.linkedin.com/in/dev-aaki" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4v11.5H3V9.75Zm6.5 0h3.8v1.6h.06c.53-1 1.82-2.06 3.75-2.06 4 0 4.75 2.63 4.75 6.05v5.9h-4v-5.23c0-1.25-.02-2.86-1.75-2.86-1.75 0-2.02 1.36-2.02 2.77v5.32h-4V9.75Z"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </section>
+
+    <aside class="card-wrap reveal">
+      <div class="card" id="card">
+        <div class="avatar">
+          <img src="photo.jpg" alt="Aakash" onerror="this.remove()" />
+          <span>A</span>
+        </div>
+        <div class="stat">
+          <b><span id="count" data-to="3">0</span>+</b>
+          <small>years in full stack<br />development</small>
+        </div>
+        <ul class="meta">
+          <li><span>Name</span> Aakash</li>
+          <li><span>Role</span> Software Engineer</li>
+          <li><span>Mail</span> aakash.elven@gmail.com</li>
+        </ul>
+      </div>
+      <div class="chip c1">⚡ Fast</div>
+      <div class="chip c2">✦ Clean code</div>
+    </aside>
+  </main>
+
+  <footer class="foot">© <span id="year"></span> Aakash · Built with HTML, CSS &amp; JS</footer>
+  <script src="script.js"></script>
+</body>
+</html>
